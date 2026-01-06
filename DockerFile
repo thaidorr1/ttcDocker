@@ -1,0 +1,4 @@
+FROM nginx:alpine
+# Copy toàn bộ file code vào thư mục web của Nginx
+COPY . /usr/share/nginx/html/
+EXPOSE 80
